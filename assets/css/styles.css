@@ -41,7 +41,7 @@ nav ul li a:hover {
 }
 
 .main .logo {
-    width: 160px;
+    /* width: 10px; */
     margin-top: -4%;
     margin-left: -2%;
     cursor: pointer;
@@ -68,6 +68,7 @@ nav ul li a:hover {
     line-height: 30px;
     font-size: 20px;
     margin-left: 8%;
+    margin-bottom: 1%;
 }
 
 .main a {
@@ -92,7 +93,7 @@ nav ul li a:hover {
 
 .image img {
     position: absolute;
-    height: 90%;
+    height: 85%;
     left: 50%;
     bottom: 10%;
     transform: translateX(-50%);
@@ -107,6 +108,28 @@ nav ul li a:hover {
     left: 60%;
 }
 
+p {
+    color: rgb(45, 88, 114);
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
 
+#qualif {
+    color: rgb(34, 148, 218);
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 8%;
+}
 
+.title {
+    color: rgb(34, 148, 218);
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 8%;
+    margin-top: 3%;
+}
 
