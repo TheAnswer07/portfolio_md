@@ -15,7 +15,7 @@
             <li class="navLink"><a href="#">HOME</a></li>
             <li class="navLink"><a href="#Qualifications">QUALIFICATIONS</a></li>
             <li class="navLink"><a href="#Career History">CAREER HISTORY</a></li>
-            <li class="navLink"><a href="#Contact">CONTACT</a></li>
+            <li class="navLink"><a href="#Contact">CONTACT ME</a></li>
         </ul>
         </nav>
         <div class="main">
@@ -30,13 +30,14 @@
         <a href="#"> DOWNLOAD CV </a>
         </div>
         <div class="image">
-            <!-- <img src="./assets/images/shape.png" class="techpic"> -->
+            <img src="./assets/images/shape.png" class="techpic">
             <img src="./assets/images/mypic.jpeg" class="roundpic">
         </div>
 
     </div>
+    
     <section class="title" id="#Qualifications">QUALIFICATIONS</section>
-
+    
         <div class="qualif">
 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, mollitia dolorum? Architecto totam debitis possimus accusamus at beatae quas magni? Maxime esse quasi laborum officia, sapiente harum suscipit quam quibusdam!
@@ -61,18 +62,35 @@
             
         </div>
 
-    <section class="title" id="Contact">CONTACT</section>
-    
-        <div class="contact">
+    <section class="title" id="Contact">CONTACT ME</section>
 
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, mollitia dolorum? Architecto totam debitis possimus accusamus at beatae quas magni? Maxime esse quasi laborum officia, sapiente harum suscipit quam quibusdam!
-            Dolor quas laudantium dolores obcaecati magni quis impedit minus voluptatum modi, error incidunt eius corrupti non, adipisci cupiditate aliquid, libero recusandae maiores dolore ratione. Cumque sed quam culpa quasi. Nobis!
-            Inventore repellat eius consequuntur dicta eveniet similique numquam adipisci. Praesentium totam aspernatur culpa delectus facere illo sed, id blanditiis tempora labore consequuntur aliquid obcaecati assumenda rerum corporis. Eum, quibusdam itaque!
-            Ducimus dolorem repellendus at a cum unde consequuntur obcaecati tenetur reiciendis. Deleniti voluptas aliquam molestias dolores necessitatibus temporibus molestiae, quod quibusdam ad quidem dicta quasi soluta delectus hic quam vel.
-            Sunt architecto, reiciendis error vel iure, tempore neque perferendis blanditiis illo suscipit accusantium exercitationem asperiores, fuga esse maiores? Saepe assumenda laboriosam fugit quod optio modi, doloremque enim aspernatur repudiandae nam?
-            </p>
-            
+    <form>
+
+        <div class="nameInput">
+          <input type="text" id="name" class="name" />
+          <label class="fullName" for="fullName">Name</label>
         </div>
+    
+        <div class="emailInput">
+          <input type="email" id="email" class="email" />
+          <label class="emailContact" for="emailContact">Email address</label>
+        </div>
+      
+        <div class="messageInput">
+          <textarea class="message" id="message" rows="7"></textarea>
+          <label class="yourMessage" for="yourMessage">Your message here:</label>
+        </div>
+     
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="form" checked />
+          <label class="form-check-label" for="form-check-label">
+            Send me a copy of this message
+          </label>
+        </div>
+      
+        <button type="submit" class="button">Submit</button>
+      </form>
 
+   
 </body>
 </html>

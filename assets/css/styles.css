@@ -7,6 +7,7 @@
 .main {
     background-image: url("../images/pictech.jpeg");
     background-size: cover;
+    background-repeat: repeat-y;
     margin: 0;
     padding: 150px 0;
     position:relative;
@@ -133,3 +134,6 @@ p {
     margin-top: 3%;
 }
 
+/* .hey {
+    background-image: url("../images/pictech.jpeg");
+} */
