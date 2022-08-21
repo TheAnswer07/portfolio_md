@@ -10,7 +10,6 @@
 
 body {
     display: block;
-    /* flex-direction: column; */
     overflow:auto;
     align-items: center;
     justify-content: space-evenly;
@@ -53,7 +52,7 @@ nav ul li a:hover {
     background-size:cover;
     background-repeat: repeat-x;
     margin: 0;
-    padding: 150px 0;
+    padding: 50px 0;
     position:relative;
     width: 100%;
     height: 100vh;
@@ -73,6 +72,7 @@ nav ul li a:hover {
     font-size: 65px;
     font-weight: 3000;
     margin-left: 8%;
+    padding: 50px 0;
 }
 
 #main-home h2 {
@@ -90,6 +90,15 @@ nav ul li a:hover {
     margin-left: 8%;
     margin-bottom: 1%;
     font-style: italic;
+}
+
+.card-body li {
+    color: rgb(45, 88, 114);
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 8%;
+    margin-bottom: 1%;
 }
 
 #main-home a {
@@ -142,9 +151,12 @@ nav ul li a:hover {
     line-height: 30px;
     font-size: 20px;
     margin-left: 8%;
-    margin-bottom: 1%;
+    margin-bottom: 10%;
     overflow: hidden;
-
+    justify-self: center;
+    align-items: center;
+    background-color: rgb(227, 242, 251);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -153,7 +165,8 @@ p {
     line-height: 30px;
     font-size: 20px;
     margin-left: 8%;
-    margin-bottom: 1%;
+    margin-bottom: 8%;
+    margin-right: 8%;
 }
 
 /* #qualif {
@@ -164,27 +177,26 @@ p {
     margin-left: 8%;
 } */
 
-/* .title {
+h3 {
+    text-align: center;
     color: rgb(34, 148, 218);
     margin-bottom: 25px;
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 27px;
+    font-weight: 545;
     margin-left: 8%;
-    margin-top: 3%;
-} */
-
+    margin-right: 8%;
+    margin-top: 8%;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    justify-items:center;
+}
+/* 
 .container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    /* align-items:flex-start; */
-}
-
-/* .card-body {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
+  
 } */
 
 .card-img {
