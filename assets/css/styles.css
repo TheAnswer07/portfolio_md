@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:wght@400;700&display=swap');
 
 * {
@@ -44,11 +43,11 @@ nav ul li a:hover {
 
 .main {
     background-image: url("../images/pictech.jpeg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: repeat-x;
     margin: 0;
     padding: 50px 0;
-    position:relative;
+    position: relative;
     width: 100%;
     height: 100vh;
     overflow: auto;
@@ -184,7 +183,7 @@ h3 {
     justify-content: center;
     align-items: center;
     justify-self: center;
-    justify-items:center;
+    justify-items: center;
 }
 
 .row-h3 {
@@ -231,7 +230,12 @@ i {
 #contact-p {
     font-size: 1.7em;
     font-style: italic;
-    font-weight:normal;
+    font-weight: normal;
+}
+
+.background {
+    background: rgb(255, 255, 255);
+    opacity: 10%;
 }
 
 #contact-me {
