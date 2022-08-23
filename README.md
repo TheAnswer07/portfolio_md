@@ -19,10 +19,10 @@ Thanks Scott for helping with adjusting the cards' styling.
 [https://github.com/TheAnswer07](TheAnswer7)
 
 ### Screenshots
-![home.png]( "home page")
-![projects.png]( "projects page")
-![skills.png]( "skills page")
+![Home page](/assets/screenshots/home.png)
+![Projects page](/assets/screenshots/projects.png)
+![Skills page](/assets/screenshots/skills.png)
 
 ### Links
-[https://github.com/TheAnswer07](Deployed App)
-[https://github.com/TheAnswer07/portfolio_md.git](GitHub repository)
+Deployed App: [https://theanswer07.github.io/portfolio_md/]
+GitHub repository: [https://github.com/TheAnswer07/portfolio_md.git]  
