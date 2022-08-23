@@ -28,4 +28,5 @@ Thanks Scott for helping with adjusting the cards' styling.
 
 ### Links
 Deployed App: [https://theanswer07.github.io/portfolio_md/]
+
 GitHub repository: [https://github.com/TheAnswer07/portfolio_md.git]  
